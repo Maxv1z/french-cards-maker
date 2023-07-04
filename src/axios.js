@@ -1,13 +1,12 @@
-// openai.js
 import { Configuration, OpenAIApi } from "openai";
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 
 const configuration = new Configuration({
     apiKey: OPENAI_API_KEY,
 });
 
-delete configuration.baseOptions.headers['User-Agent'];
+delete configuration.baseOptions.headers["User-Agent"];
 
 const openai = new OpenAIApi(configuration);
 
