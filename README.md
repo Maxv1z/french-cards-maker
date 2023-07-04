@@ -74,3 +74,6 @@ The input-container div contains an input field and a button for the user to ent
 When the user types in the input field, the onChange event handler updates the input state with the current value of the input field.
 When the user clicks the "Send" button, the onClick event handler triggers the handleMessageSubmit function, which sends the user's input to the OpenAI API and updates the chat messages accordingly.
 
+##ScreenShots
+![image](https://github.com/Maxv1z/french-cards-maker/assets/122612827/76118385-da04-4aa6-bbd1-95430f20f75b)
+
